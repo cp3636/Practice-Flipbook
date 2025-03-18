@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Realistic Page Flip Book</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="book-container">
+        <div id="book">
+            <div class="page cover" id="page0">Cover</div>  
+            <div class="page" id="page1">Inside Cover</div>  
+            <div class="page" id="page2">Page 1</div>  
+            <div class="page" id="page3">Page 2</div>  
+            <div class="page" id="page4">Page 3</div>  
+            <div class="page" id="page5">Page 4</div>  
+            <div class="page" id="page6">Page 5</div>  
+            <div class="page back-cover" id="page7">Back Cover</div>  
+        </div>
+
+        <button id="prevBtn" onclick="prevPage()">⬅ Prev</button>
+        <button id="nextBtn" onclick="nextPage()">Next ➡</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
